@@ -4,11 +4,13 @@
 
 ################ CONFIGURATION ################
 
-# Set this to the URL of a Mimic3 instance.
 #
 # This script assumes that you already have Mimic3 running somewhere.  If you do not, you 
 # can run it on your machine via docker as described here:
 #    https://mycroft-ai.gitbook.io/docs/mycroft-technologies/mimic-tts/mimic-3#docker-image
+#
+# You also need the SoX sound processing program:
+#    https://sox.sourceforge.net/
 #
 
 ###############################################

@@ -19,3 +19,5 @@ Mimic3 is used to speak, so that must be running! Set the MIMIC3_URL environment
 variable to its' http(s) location.
 ```
 
+This script uses the [Sox sound processing program](https://sox.sourceforge.net/) and the [Mimic 3 TTS engine](https://mycroft-ai.gitbook.io/docs/mycroft-technologies/mimic-tts/mimic-3) from Mycroft AI.
+
