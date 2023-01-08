@@ -6,16 +6,15 @@
 
 # Set this to the URL of a Mimic3 instance.
 #
-# If you do not already have Mimic3 running somewhere, you can run it on your machine via
-# docker as described here:
+# This script assumes that you already have Mimic3 running somewhere.  If you do not, you 
+# can run it on your machine via docker as described here:
 #    https://mycroft-ai.gitbook.io/docs/mycroft-technologies/mimic-tts/mimic-3#docker-image
-# and set this variable to "http://localhost:59126"
-#MIMIC3_URL="https://mimic.ucs-1.ultroncore.net"
+#
 
 ###############################################
 
 # Command line options
-if [[ $1 == "-h" ]]; then
+if [[ $1 == "-h" ]] || [[ ! $1 ]]; then
     echo "
     It's nice to be able to talk, isn't it?
    
