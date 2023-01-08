@@ -28,6 +28,9 @@ if [[ $1 == "-h" ]] || [[ ! $1 ]]; then
      -b   Batch Mode
           ./speak.sh [voice #] [file name] [output file (optional)]
 
+          Input file should be a TSV with the following columns:
+            File Name (without extension) <Tab> Text to speak
+
 
     Mimic3 is used to speak, so that must be running! Set the MIMIC3_URL environment
     variable to its' http(s) location.
@@ -52,12 +55,22 @@ speak () {
     effect_4="overdrive 7 30"
     effect_5="bend .35,80,.25 0,-120,.3 .5,200,.5 0,-50,.3"
     effect_6="dither"
+
+    speed=1.6
     
     case $MIMIC_VOICE in
         1) MIMIC_VOICE_STRING="--voice en_US/m-ailabs_low --speaker mary_ann";;
         2) MIMIC_VOICE_STRING="--voice en_US/ljspeech_low";;
         3) MIMIC_VOICE_STRING="--voice en_US/m-ailabs_low --speaker elliot_miller";;
         4) MIMIC_VOICE_STRING="--voice en_US/vctk_low --speaker p287";;
+        5) MIMIC_VOICE_STRING="--voice en_US/vctk_low --speaker p287"
+            effect_3=""
+            effect_4="overdrive 18 40"
+            speed=2;;
+        6) MIMIC_VOICE_STRING="--voice en_US/m-ailabs_low --speaker elliot_miller"
+            effect_3=""
+            effect_4="overdrive 18 40"
+            speed=1.8;;
         *) echo "I don't support that voice!" && exit 1;;
     esac
 
@@ -67,11 +80,12 @@ speak () {
         mkdir ./speak_scratch
     fi
     
-    mimic3 --remote $MIMIC3_URL --length-scale 1.6 $MIMIC_VOICE_STRING --output-dir ./speak_scratch --output-naming time "$INPUT_TEXT"
+    mimic3 --remote $MIMIC3_URL --length-scale $speed $MIMIC_VOICE_STRING --output-dir ./speak_scratch --output-naming time "$INPUT_TEXT"
     
     filename=$(ls ./speak_scratch/)
     
     if [[ $OUTPUT_FILE ]]; then
+        echo "Saving output file to: $OUTPUT_FILE"
         sox ./speak_scratch/$filename $OUTPUT_FILE $effect_1 $effect_2 $effect_3 $effect_4 $effect_5 $effect_6 
     elif [[ $INPUT_TEXT ]]; then
         play ./speak_scratch/$filename $effect_1 $effect_2 $effect_3 $effect_4 $effect_5 $effect_6 
@@ -84,6 +98,10 @@ if [[ ! $MIMIC3_URL ]]; then
     MIMIC3_URL="http://localhost:59125"
 fi
 
+split_line () {
+    # Split line into an array called split_line
+    IFS='	' read -ra split_line <<< "$1"
+}
 
 if [[ $OP_MODE == "default" ]]; then
     speak "$1" "$2" "$3"
@@ -99,10 +117,15 @@ elif [[ $OP_MODE == "batchfile" ]]; then
     while IFS= read -r line
     do
         i+=1
+        echo -e "\nProcessing item: $i"
+        split_line "$line"
+        output_filename=${split_line[0]}
+        text=${split_line[1]}
+
         if [[ $output_path ]]; then
-            speak $voice "$line" "$output_path/$i.wav"
+            speak $voice "$text" "$output_path/$output_filename.wav"
         else
-            speak $voice "$line"
+            speak $voice "$text"
         fi
 
     done < $input_path
