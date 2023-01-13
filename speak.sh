@@ -66,11 +66,16 @@ speak () {
         5) MIMIC_VOICE_STRING="--voice en_US/vctk_low --speaker p287"
             effect_3=""
             effect_4="overdrive 18 40"
-            speed=2;;
+            speed=1.4;;
         6) MIMIC_VOICE_STRING="--voice en_US/m-ailabs_low --speaker elliot_miller"
             effect_3=""
             effect_4="overdrive 18 40"
-            speed=1.8;;
+            speed=1.2;;
+        7) MIMIC_VOICE_STRING="--voice en_US/vctk_low --speaker p226"
+            effect_3=""
+            effect_4="overdrive 18 40"
+            speed=1.4;;
+        8) MIMIC_VOICE_STRING="--voice en_US/vctk_low --speaker p300";;
         *) echo "I don't support that voice!" && exit 1;;
     esac
 
