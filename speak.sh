@@ -26,7 +26,7 @@ if [[ $1 == "-h" ]] || [[ ! $1 ]]; then
      ./speak.sh [voice #] [\"Thing to say\"] [output file (optional)]
 
      -b   Batch Mode
-          ./speak.sh [voice #] [file name] [output file (optional)]
+          ./speak.sh -b [voice #] [file name] [output file (optional)]
 
           Input file should be a TSV with the following columns:
             File Name (without extension) <Tab> Text to speak
