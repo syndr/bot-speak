@@ -76,6 +76,17 @@ speak () {
             effect_4="overdrive 18 40"
             speed=1.4;;
         8) MIMIC_VOICE_STRING="--voice en_US/vctk_low --speaker p300";;
+        9) MIMIC_VOICE_STRING="--voice en_US/vctk_low --speaker p238"
+            effect_3=""
+            effect_4="overdrive 18 40"
+            speed=1.4;;
+        10) MIMIC_VOICE_STRING="--voice en_US/vctk_low --speaker p287"
+            effect_2=""
+            effect_3=""
+            effect_4=""
+            effect_5=""
+            effect_6=""
+            speed=1.4;;
         *) echo "I don't support that voice!" && exit 1;;
     esac
 

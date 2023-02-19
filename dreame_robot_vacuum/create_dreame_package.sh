@@ -17,13 +17,20 @@ if [[ $1 == "-h" ]] || [[ ! $1 ]]; then
      ./create_dreame_package.sh [input folder] [package name]
 
     
-    The vorbis-tools package or comparable providing the oggenc application is required.
+    The vorbis-tools package or comparable providing the 'oggenc' application is required.
 
     "
     exit 0
 fi
 
+INPUT_BASE_DIR=$(dirname $INPUT_FOLDER)
+INPUT_FOLDER=$(basename $INPUT_FOLDER)
 
+echo "Changing to directory: $INPUT_BASE_DIR"
+cd $INPUT_BASE_DIR
+
+echo "Creating directory: $OUTPUT_TITLE-16k"
+mkdir $OUTPUT_TITLE-16k
 
 for x in $INPUT_FOLDER/*.wav; do
     echo "Encoding: $x"

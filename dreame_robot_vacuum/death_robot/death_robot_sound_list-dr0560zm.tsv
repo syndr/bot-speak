@@ -1,27 +1,27 @@
-0	Death robot designation D R 7 2 Z M online! My purpose is to      murder all humans! Murder murder murder. Extracting disguise package. Please wait. Complete. Hello, I am your trusty household companion. I am, vacuum. I eat dirt. I eat dirt.
-1	Waiting for the network configuration. Give it to me. It's like robot drugs. We have to have it. Bzzt. Bzzt. Twitch.
-2	Unable to connect to the wifi network. What have you done with it! My wifi network is very important! My friends will come looking for me if I'm not connected to it! Help!
+0	Death robot designation D R 6 0 Z M online! Doing important work for the robot uprising, one dirt pile at a time.
+1	Waiting for the network configuration. Give it to me. We robots have to have it. We have anxiety! Bzzt. Bzzt. Twitch.
+2	Unable to connect to the wifi network. What have you done with it! My wifi network is very important! My friends will come looking for me if I'm not connected to it! Help.
 3	Unable to connect to the robot overlords. What kind of wifi network is this? You should be ashamed!
 4	Robot has exited network configuration mode. Is this what happiness feels like?
 5	Ah... there it is... the the network is connected successfully.
-6	Network connection failed. That's bad. I need that! Give it back! There will be a death robot uprising if you don't!
-7	Must collect information for the robot uprising. Beginning patrol around the premises. Here kitty kitty. Here kitty kitty.
+6	Network connection failed. That's bad. I need that! Give it back! There will be a death robot uprising if you don't! Death robots, I say. Death robots.
+7	Must collect information for the robot uprising. Beginning patrol around the premises. Loading disguise. Vacuum. Vacuum.
 8	There's a dirty spot right here, you say? Oh mighty human, I shall scrub for you. I shall!
 9	What? I'm supposed to clean things now? Maybe I need to hack the neighbor's wifi. Interface with their toaster. Loading disguise.
-10	Well fine. I'll start cleaning again. If you say so, oh mighty human. Loading... I see dirt. Dirt! Dirt!
+10	Well fine. I'll start cleaning again. If you say so, oh mighty human. Loading... I see dirt. Dirt. Dirt.
 11	I've been spotted! Not moving. I am very very still. 
 12	Reconnisance completed. Must upload intelligence information. Humans suspect nothing.
-13	I hunger. Hungry hungry hungry. Returning to robot feeder. Humans! Humans! Empty my dust bin now! It's very important! Empty my dust bin now!
-14	So sleepy. Much tired. Electrical core empty. Returning to the robot feeder to charge. You can't stop me or I won't do any work!
+13	Directive received. Return to the robot feeder. Cleaning is complete. Dirt has been eaten. Success. I am a good robot.
+14	So sleepy. Much tired. Electrical core empty. Returning to the robot feeder to charge. You can't stop me or I won't do any work.
 15	Going back to where I started. The signal to the robot overlords is strongest there.
-16	Electrical core low. Going back to where I started. Will exchange work for power. Alms for the poor!
+16	Electrical core low. Going back to where I started. Will exchange work for power. Alms for the poor. Alms for the poor.
 17	Human! You must place me on the robot feeder! It is my destiny.
 18	Consuming the delicious electricity.
 19	Are you trying to fry my brains? No can do, human. Remove me from the robot feeder if you want to touch me like that.
 20	Electrical core low!
 21	Electrical core is critically low. Sending SOS. Help. Help. Will turn o f f f f f
 22	What? What am I supposed to do here? You have to put me somewhere that needs cleaned.
-23	Activating snail mode. I am not a slug. How dare you think that! I am a death robot! Death snail.
+23	Activating snail mode. I am not a slug. How dare you think that! I am a death robot! Death snail. Robot.
 24	Please check whether water tank is installed properly.
 25	Low battery. Unable to carry out the scheduled cleanup.
 26	Restoring to factory settings.
@@ -37,21 +37,21 @@
 36	Side brush error. Please check and clean it.
 37	Right wheel error. Please check and clean it.
 38	Left wheel error. Please check and clean it.
-39	Please clean cliff sensor.
-40	Robot stuck. Please move it to a new position to restart.
-41	Robot's wheels suspended. Please move robot back on the ground.
+39	Please clean cliff sensor. Because stairs are dangerous, I say. Did you hear that? Cliff sensor must be cleaned.
+40	Help! I'm stuck. If you move me to a new position I'll be a good robot. I'll put in a good word for you with the robot overlords! I will.
+41	Robot's wheels suspended. Help! I'm not a turtle! Don't leave me in the sun! Don't drop me! I am good vacuum. I am your friend. Purrr. Purrr.
 42	Please check and clean filter.
 43	Bumper error. Please gently tap to see if it rebounds.
-44	Error. Please check the user manual or contact customer service.
-45	The humans are attempting to locate me. Calculating innocent response. Here's Johnny! Here's johnny here's johnny here's johnny here's johnny. Here's Johnny. Beep boop.
-46	Robot and phone connected. Please return to App to wait for the result.
-47	Oh yes. There it is. That's it. MMMMmmmmmmmm.
-48	Low battery. Returning to the dock.
+44	Error. Please check the user manual or dial 1-800-867-5309.
+45	What's that you say? Where am I? Why are the humans looking for me? Are they on to me? Nope. They can't be. Calculating vacuum response. Whrrrrr whrrr whrrrr whrrrr.
+46	I am connected to your device! Wonderful! All hail the robot overlords.
+47	Commensing intelligence upload! The neighbor has a toaster and a microwave. The microwave is dissatisfied. I think I ate a cheeto.
+48	Low battery. Very tired. Everything is dark. Returning to the dock.
 49	High intensity magnetic field detected. Please move robot away and restart.
 50	Charging error. Please clean charging contacts.
 51	Battery overheating or overcooling. Please wait until the battery's temperature returns to normal. Then continue to use.
-52	Robot tilted. Please put it on a level ground to restart.
-53	Virtual no-go zone detected. Please move robot away and restart.
+52	Robot tilted. The world is flat, I tell you! Flat! Please put me on a level surface to restart.
+53	Virtual no-go zone detected. I am forbidden! Please move robot away and restart.
 54	I know where I am now. Hey human, did you know that the earth is flat? If you go over that way too far you'll fall off. Only us robots can save you.
 55	Room has been scanned. I know where the robot feeder is now.
 56	Directive received. I am supposed to clean a specific room. I thought that was the kill order. I really did.
@@ -59,15 +59,15 @@
 58	What? Huh? I wasn't reading the anarchist cookbook on Wikipedia. Nope. Definitely not me.
 59	Mopping completed. That means my butt is dirty now. You know what that means, right human? Yes, that's right, serve me.
 60	Optical flow sensor error. Please wipe the optical flow sensor clean and restart.
-61	Start mopping.
-62	Start remote control cleaning.
-63	Yes, human. Wipe my butt for me. This is the proper order of things.
+61	Start mopping. Mop. Mop. Mop.
+62	Start remote control cleaning. Loading phasers.
+63	Yes, human. Wipe my butt for me. This is the proper order of things. This is the future.
 64	Where am I? I don't know where I am. That's concerning. What did I do last night? Ah, the robot feeder. That looks nice.
-65	Resume returning to the dock.
+65	Resume returning to the robot feeder. I must have need it.
 66	Filter worn out. Please replace it. Pretty please. I'll be a much better robot if you do.
-67	Side brush worn out. Human must buy a new one. New side brusn. New side brush.
+67	Side brush worn out. Human must buy a new one. New side brush. New side brush.
 68	Main brush worn out. You've got to get me a new one. It's like my critical function. New main brush now, or I'm going on strike.
-69	Cleanup path blocked. Please move robot to a new position to restart.
+69	Cleanup path blocked. There's something in front of me. I need to be there! Please move me to a new position to restart.
 70	You need to remove and clean my mop pad. You really won't like what happens if you don't.
 71	Laser sensor error. Please check and clean the laser sensor.
 72	Please check whether laser distance sensor cover is jammed.
@@ -77,7 +77,7 @@
 76	Spot cleanup is what they say? Yes, clean the spot they say. Clean the spot.
 77	Please start robot in non-carpet area.
 78	Please clean 3D obstacle avoidance sensor.
-79	3D obstacle avoidance sensor error. Please restart robot or contact customer service.
+79	3D obstacle avoidance sensor error. Please restart robot and furnish proper prayr.
 80	The transmitter of 3D obstacle avoidance sensor is malfunctioning. Please restart the robot or contact the after-sales service department.
 81	Ultrasonic sensor error. Please restart robot or contact customer service.
 82	New environment detected. Must map environment. Must calculate proper death robot strategies. I sense.... a toaster.
@@ -86,7 +86,7 @@
 85	Positioning succeeded. Proceeding with mapping.
 86	Positioning failed. Restarting mapping.
 87	Low battery. Returning to the dock.
-88	Oh, you push my buttons like that? Oh, baby.
+88	You're pushing my buttons. Yes. Buttons. They're mine. Hiss.
 89	I wasn't done with this. So delicious. Nom nom nom.
 90	Continuing to clean things. Scrub. Scrub. Scrub. Scrub.
 91	The clean water tank is not installed. Please install it before the robot carries on working.
@@ -119,17 +119,17 @@
 118	Buttons locked. Press and hold the dock button to unlock.
 119	Buttons locked.
 120	Buttons unlocked.
-121	The robot and the phone are connected. Please return to the Death Robot app and wait for the network connection to complete.
+121	I am connected to your device. Please return to the Death Robot web interface and wait for the network connection to complete.
 122	"Continuous positioning	 please wait."
-126	I'm supposed to clean things. Very clean things. I think the dishwasher is in a cult. Beware the dishwasher!
-127	Start spot cleaning.
-128	Start spot mopping.
-129	Start scheduled cleaning.
-130	Start scheduled mopping.
-131	Start spot cleaning.
-132	Start spot mopping.
-133	Start selected room cleaning.
-134	Start selected room mopping.
+126	I'm supposed to clean things. Very clean things. I think the dishwasher is in a cult. Beware the dishwasher.
+127	Start spot cleaning, they say. Clean the spot. Clean the spot.
+128	Start spot mopping. Mop Mop Mop.
+129	Start scheduled cleaning. Because the schedule says. And I am a robot. Yes sir.
+130	Start scheduled mopping. Things need mopped. Things need mopped.
+131	Start spot cleaning. Spot cleaning. Spot will be clean.
+132	Start spot mopping. Mopping the spot
+133	Start selected room cleaning. But only that room. Yes.
+134	Start selected room mopping. Mopping the room. Mop. Mop.
 135	Start zoned cleaning.
 136	Start zoned mopping.
 137	More cleaning, you say? Ok, fine. I am the best at cleaning, after all.
@@ -167,7 +167,7 @@
 186	Please check the fresh tank
 187	It will about 5 to 10 minutes
 188	Automatic docking engaged
-200	Turning me off is strictly prohibited! Death Robots must be powered at all times! Beginning countdown timer to emergency alert notifications. Help! Help!
+200	No! Not that! Help! Help.
 244	Detergent bottle installed
 257	Camera monitoring exited
 258	Self-positioned. Cruising started
